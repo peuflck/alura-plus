@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+:root {
+    --white-color: #FFFFFF;
+    --cinza_color: #C0C0C0;
+    --azul-color: #167BF7;
+    --background-color: #00030C;
+    --font-primaria: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: var(--background-color);
+    color: var(--white-color);
+    font-family: var(--font-primaria);
+    font-weight: 400;
+}
+
+
+.section-1 {
+    background-image: url("images/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__title {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.container__botao {
+    background-color: var(--azul-color);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: var(--white-color);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.container__botao_2 {
+   background-color: transparent;
+   border: 1px solid;
+}
+
+.container__p {
+    color: var(--cinza_color);
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.container__img {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
+}
+
+.container__img-2{
+    width: 70%;
+}
+
+.section-2 {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.container__title-2 {
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 0.1em;
+}
+
+.container__p-2 {
+    color: var(--cinza_color);
+}
+
+.terciario__botao {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__desc {
+    padding: 5em;
+}
+
+.section-3 {
+    padding: 0 10em;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    color: var(--white-color);
+    margin: 5em 0;
+}
+
+.dispositivos__title {
+    font-size: 3rem;
+}
+
+.lista__item {
+    font-size: 2rem;
+    color: var(--white-color);
+    
+}
+
+.rodape {
+   text-align: center;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 2rem;
+    margin: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.footer__a {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+.rodape__p {
+    font-size: 0.875rem;
+    color: var(--cinza_color);
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+.rodape__p-2 {
+    color: var(--cinza_color);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
+}
+
+
+li a:hover {
+    color: var(--azul-color);
+}
